@@ -1,6 +1,6 @@
-Install Library:
-pip install pymongo pandas numpy scikit-learn
-pip install pickle
+Install Library: <br>
+pip install pymongo pandas numpy scikit-learn <br>
+pip install pickle <br>,br>
 
 
 Poultry Weight Prediction System
