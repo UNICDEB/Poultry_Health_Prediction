@@ -26,16 +26,7 @@ numpy: For numerical operations.
 scikit-learn: For loading and using the .pkl Machine Learning model.
 Installation
 1. Clone the Repository
-bash
-Copy code
-git clone https://github.com/your-username/poultry-weight-prediction.git
-cd poultry-weight-prediction
 2. Set Up the Environment
-Install the required Python packages:
-
-bash
-Copy code
-pip install -r requirements.txt
 3. MongoDB Configuration
 Ensure you have a MongoDB server running.
 Create a database named poultry_database and a collection named device_data (or update the code to reflect your database/collection names).
@@ -83,33 +74,3 @@ The computed min/max values, along with the user-provided inputs, are combined i
 
 Prediction:
 The feature vector is passed into the pre-trained .pkl model, which outputs the predicted poultry weight.
-
-Usage
-1. Run the Program
-bash
-Copy code
-python main.py
-2. Input Data
-Provide the Device Name (unique identifier for the IoT device).
-Provide the Week Number (e.g., 1, 2, 3, etc.).
-Provide the Feed Intake in kilograms.
-3. Output
-The predicted poultry weight (in kilograms) will be displayed on the console.
-Directory Structure
-bash
-Copy code
-poultry-weight-prediction/
-│
-├── main.py                 # Main Python script
-├── model.pkl               # Pre-trained ML model
-├── requirements.txt        # List of dependencies
-├── README.md               # Project documentation
-└── LICENSE                 # License file
-Contributing
-Contributions are welcome! To contribute:
-
-Fork the repository.
-Create a feature branch (git checkout -b feature-name).
-Commit your changes (git commit -m 'Add feature-name').
-Push to the branch (git push origin feature-name).
-Open a Pull Request.
