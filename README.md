@@ -1,3 +1,8 @@
+Install Library:
+pip install pymongo pandas numpy scikit-learn
+pip install pickle
+
+
 Poultry Weight Prediction System
 This project is a Poultry Weight Prediction System that uses a pre-trained Machine Learning model to predict poultry weight based on real-time sensor data collected from IoT devices. The project integrates sensor data stored in MongoDB, processes it, and predicts the poultry weight using the given user inputs (Week and Feed Intake) combined with the computed min and max values for the last 24 hours.
 
