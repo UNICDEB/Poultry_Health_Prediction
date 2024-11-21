@@ -39,7 +39,7 @@ Collection Name: device_data
 Each document in the collection should follow this structure:
 
 json
-Copy code
+
 {
   "device_name": "Device_1",
   "timestamp": "2024-11-20T15:00:00",
@@ -49,6 +49,7 @@ Copy code
   "Co2": 400,
   "Dust": 0.02
 }
+
 Explanation of Fields:
 device_name: Unique identifier for the IoT device.
 timestamp: Date and time of the data collection.
